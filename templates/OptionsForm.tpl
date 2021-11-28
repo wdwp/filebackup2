@@ -3,9 +3,9 @@
 
 	<table cellspacing="10">
 
-		<tr valign="top"><td><b>{$FORM_path_to_tar}</b>:</td><td>{$FORM_input_path}<br />{$FORM_pathtotar_help}</td></tr>
+		<tr valign="top"><td><b>{$FORM_path_to_tar}</b>:</td><td>{$FORM_input_path}</td></tr>
 
-		<tr valign="top"><td><b>{$FORM_parameters}</b>:</td><td><p>{$FORM_input_options}</p><p>{$FORM_running}</p><blockquote><dl>{$FORM_parameters_explained}</dl></blockquote><p>{$FORM_parameters_help}</p></td></tr>
+		<tr valign="top"><td><b>{$FORM_parameters}</b>:</td><td><p>{$FORM_input_options}</p><blockquote><dl>{$FORM_parameters_explained}</dl></blockquote><p>{$FORM_parameters_help}</p></td></tr>
 
 		<tr valign="top"><td><b>{$FORM_restore_parameters}</b>:</td><td><p>{$FORM_input_restore}</p>
 		  {$FORM_parameters_help}</td>
